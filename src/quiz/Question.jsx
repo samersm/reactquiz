@@ -7,7 +7,7 @@ class Question extends Component {
         
         let selected = e.target.value
         
-        if(selected == question.correct) {
+        if(selected === question.correct) {
             setScore(this.props.score + 1);
         }
         

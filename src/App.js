@@ -105,7 +105,9 @@ class App extends Component {
       var scorebox = '';
       var results = <Results {...this.state} />
     } else {
+      // eslint-disable-next-line
       var scorebox = <Scorebox {...this.state} />
+      // eslint-disable-next-line
       var results = '';
     }
     return (

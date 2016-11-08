@@ -7,8 +7,10 @@ class Results extends Component {
       if(percent > 80) {
           var message = 'Awesome Job!';
       } else if(percent < 80 && percent > 40) {
+        // eslint-disable-next-line
           var message = 'You Did Ok!';
       } else {
+        // eslint-disable-next-line
           var message = 'You Did Horrible!';
       }
     return (
